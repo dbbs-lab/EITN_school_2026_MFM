@@ -1,0 +1,15 @@
+services:
+  devenv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: eitn-devenv
+    platform: linux/amd64
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./workspace:/workspace
+    ports:
+      - "8080:8080"
+      - "3000:3000"
+    restart: unless-stopped
