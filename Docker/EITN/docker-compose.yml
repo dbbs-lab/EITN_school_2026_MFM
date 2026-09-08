@@ -3,10 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        PLATFORM: ${PLATFORM:-linux/amd64}
     container_name: eitn-devenv
-    platform: ${PLATFORM:-linux/amd64}
     stdin_open: true
     tty: true
     volumes:
