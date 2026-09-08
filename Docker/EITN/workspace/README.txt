@@ -9,8 +9,8 @@ Inside the container this folder is mounted at: /workspace
 
 Virtual environments
 --------------------
-  use-nrn   NEURON 8.2.6 + TVB (default)
-  use-bsb   BSB + NEURON 9.x + TVB
+  use-nrn   NEURON 8.2.6 (default)
+  use-bsb   BSB + NEST 3.8 + cerebellar-models
   use-mfm   BSB + NEST 3.8 + TVB + JupyterLab + cerebellar-models
 
 Quick start
