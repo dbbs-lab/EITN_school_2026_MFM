@@ -1,4 +1,5 @@
-FROM --platform=linux/amd64 ubuntu:24.04
+ARG PLATFORM=linux/amd64
+FROM --platform=${PLATFORM} ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG=C.UTF-8
