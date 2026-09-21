@@ -1,0 +1,16 @@
+arborize @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=libs/arborize
+nrn-patch @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=libs/nrn-patch
+nmodl-glia @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=libs/nmodl-glia 
+bsb-core[parallel] @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=packages/bsb-core
+bsb-hdf5 @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=packages/bsb-hdf5
+bsb-json @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=packages/bsb-json 
+bsb-yaml @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=packages/bsb-yaml
+bsb-otel @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=packages/bsb-otel
+bsb-nest @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=packages/bsb-nest
+bsb-native @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=packages/bsb-native
+bsb @ git+https://github.com/dbbs-lab/bsb.git@1e71c84439d452a3345b90562297b58428fc2c49#subdirectory=packages/bsb
+cerebellar-models[nest] @ git+https://github.com/dbbs-lab/cerebellar-models.git@feature/auto_mfm
+packaging<26.3
+gdown
+efel
+deap
