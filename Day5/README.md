@@ -1,14 +1,6 @@
-## Derivation of the ataxic MFM
-Monday 28 (4 hours - 14.00-18.00)
+## Mean field model validation & prediction
+Friday 25th (2 hours - 16.00-18.00)
 
-### 1. Functional alteration
-- Alteration single-neuron and modification of E-GLIF params
-- Re-Run del Fitting TF
-- MFM prediction & Validation (as for the health MFM)
-- Extra point: Connection of the ataxic CRBL CTX MFM with the DCN MFM
-
-### 2. Structural alteration
-- Alteration in the morphology: de-arborisation of the PC 
-- Modification of the connectivity parameters 
-- Re-Run del Fitting TF
-- MFM prediction & Validation (as for the health MFM))
+- Model test with different input 
+- Validation on a gaussian input: comparison with SNN activity 
+- Connection of 2 MFM as toy example of multi-mean-field network
