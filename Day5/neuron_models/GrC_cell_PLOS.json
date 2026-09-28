@@ -1,0 +1,70 @@
+[
+    [
+        {
+            "metainfo": "GrC model (Granule Cell (glutamatergic)) - cell params from cell_library.py, synaptic/connectivity params from syn_and_connec_library.py CONFIG='CRBL_CONFIG_20PARALLEL_wN'",
+            "model": {
+                "g_L": 0.2899,
+                "C_m": 7.0,
+                "t_ref": 1.5,
+                "E_L": -62.0,
+                "V_th": -41.0,
+                "V_reset": -70.0,
+                "delta_V": 0.3,
+                "k_a": 0.022,
+                "k_2": 0.041,
+                "k_1": 0.311,
+                "A_2": -0.94,
+                "A_1": 0.01,
+                "I_e": -0.888,
+                "K_e": 4.0,
+                "Q_e": 0.23,
+                "T_e": 1.9,
+                "E_e": 0.0,
+                "K_i": 2.5,
+                "Q_i": 0.336,
+                "T_i": 4.5,
+                "E_i": -80.0
+            },
+            "init": {
+                "V": -62.0,
+                "I_d": 0,
+                "I_a": 0
+            },
+            "units": {
+                "g_L": "nS",
+                "C_m": "pF",
+                "t_ref": "ms",
+                "E_L": "mV",
+                "V_th": "mV",
+                "V_reset": "mV",
+                "delta_V": "mV",
+                "k_a": "nS",
+                "k_2": "/ ms",
+                "k_1": "/ ms",
+                "A_2": "pA",
+                "A_1": "pA",
+                "I_e": "pA",
+                "K_mf": "dimensionless",
+                "Q_mf": "nS",
+                "T_mf": "ms",
+                "E_mf": "mV",
+                "K_grc": "dimensionless",
+                "Q_grc": "nS",
+                "T_grc": "ms",
+                "E_grc": "mV",
+                "K_goc": "dimensionless",
+                "Q_goc": "nS",
+                "T_goc": "ms",
+                "E_goc": "mV",
+                "K_mli": "dimensionless",
+                "Q_mli": "nS",
+                "T_mli": "ms",
+                "E_mli": "mV",
+                "K_pc": "dimensionless",
+                "Q_pc": "nS",
+                "T_pc": "ms",
+                "E_pc": "mV"
+            }
+        }
+    ]
+]

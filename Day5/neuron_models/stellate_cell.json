@@ -1,0 +1,64 @@
+[
+    [
+        {
+            "metainfo": "Stellate configuration from https://github.com/RobertaMLo/CRBL_MF",
+            "model": {
+                "C_m": 14.6,
+                "g_L": 1.6,
+                "E_L": -68,
+                "V_th": -53,
+                "V_reset": -78,
+                "V_spike": 20,
+                "delta_V": 3.5,
+                "tau_V": 1.1,
+                "lambda_0": 1.8,
+                "t_ref": 1.59,
+                "k_a": 0.000002025,
+                "k_2": 1.096,
+                "k_1": 1.887,
+                "A_2": 5.86,
+                "A_1": 5.95,
+                "I_e": 0.003711,
+                "E_e": 0,
+                "K_e": 484.4,
+                "T_e": 0.64,
+                "Q_e": 0.18,
+                "E_i": -80,
+                "K_i": 14.3,
+                "T_i": 2,
+                "Q_i": 0.005
+            },
+            "init": {
+                "V": -68,
+                "I_d": 0,
+                "I_a": 0
+            },
+            "units": {
+                "C_m": "pF",
+                "g_L": "nS",
+                "E_L": "mV",
+                "V_th": "mV",
+                "V_reset": "mV",
+                "V_spike": "mV",
+                "delta_V": "mV",
+                "tau_V": "mV",
+                "lambda_0": "Hz",
+                "t_ref": "ms",
+                "k_a": "1/H",
+                "k_2": "/ ms",
+                "k_1": "/ ms",
+                "A_2": "pA",
+                "A_1": "pA",
+                "I_e": "nA",
+                "E_e": "mV",
+                "E_i": "mV",
+                "Q_i": "nS",
+                "Q_e": "nS",
+                "K_i": "dimensionless",
+                "K_e": "dimensionless",
+                "T_e": "ms",
+                "T_i": "ms"
+            }
+        }
+    ]
+]

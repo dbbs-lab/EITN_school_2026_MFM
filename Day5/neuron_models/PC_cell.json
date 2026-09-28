@@ -1,0 +1,68 @@
+[
+    [
+        {
+            "metainfo": "PC configuration from https://github.com/RobertaMLo/CRBL_MF",
+            "model": {
+                "C_m": 334.0,
+                "g_L": 7.1,
+                "E_L": -59,
+                "V_th": -43,
+                "V_reset": -69,
+                "V_spike": 20,
+                "delta_V": 3.5,
+                "tau_V": 3.5,
+                "lambda_0": 4.0,
+                "t_ref": 0.5,
+                "k_a": 0.000001492,
+                "k_2": 0.041,
+                "k_1": 0.195,
+                "A_2": 172.622,
+                "A_1": 157.622,
+                "I_e": 0.7425,
+                "E_e": 0,
+                "K_e": 772.42,
+                "T_e": 1.1,
+                "Q_e": 0.51,
+                "delay_e": 2,
+                "E_i": -80,
+                "K_i": 12.8,
+                "T_i": 2.8,
+                "Q_i": 1.04,
+                "delay_i": 4
+            },
+            "init": {
+                "V": -59,
+                "I_d": 0,
+                "I_a": 0
+            },
+            "units": {
+                "C_m": "pF",
+                "g_L": "nS",
+                "E_L": "mV",
+                "V_th": "mV",
+                "V_reset": "mV",
+                "V_spike": "mV",
+                "delta_V": "mV",
+                "tau_V": "mV",
+                "lambda_0": "Hz",
+                "t_ref": "ms",
+                "k_a": "1/H",
+                "k_2": "/ ms",
+                "k_1": "/ ms",
+                "A_2": "pA",
+                "A_1": "pA",
+                "I_e": "nA",
+                "E_e": "mV",
+                "E_i": "mV",
+                "Q_i": "nS",
+                "Q_e": "nS",
+                "K_i": "dimensionless",
+                "K_e": "dimensionless",
+                "T_e": "ms",
+                "T_i": "ms",
+                "delay_e": "ms",
+                "delay_i": "ms"
+            }
+        }
+    ]
+]
