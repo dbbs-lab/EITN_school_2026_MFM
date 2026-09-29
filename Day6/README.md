@@ -1,6 +1,14 @@
-## Ataxic whole-brain simulation using cMF-TVB
-Tuesday 29  (4 hours - 14.00-18.00)
+## Derivation of the ataxic MFM
+Monday 28 (4 hours - 14.00-18.00)
 
-- Brief recap on mean field model and why we need them in TVB 
-- Demo on cMF-TVB (Wong Wang + CRBL MFM)
-- Implementation of the ataxic cMF-TVB by replacing the healthy MFM parameters with the ataxic ones
+### 1. Functional alteration
+- Alteration single-neuron and modification of E-GLIF params
+- Re-Run del Fitting TF
+- MFM prediction & Validation (as for the health MFM)
+- Extra point: Connection of the ataxic CRBL CTX MFM with the DCN MFM
+
+### 2. Structural alteration
+- Alteration in the morphology: de-arborisation of the PC 
+- Modification of the connectivity parameters 
+- Re-Run del Fitting TF
+- MFM prediction & Validation (as for the health MFM))
